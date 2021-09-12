@@ -1,0 +1,50 @@
+name: examples_hub
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  animated_text_kit: ^4.2.1
+
+  # device_preview: ^0.7.4
+  # shared_preferences: ^2.0.6
+  # url_launcher: ^6.0.9
+  # google_fonts: ^2.1.0
+  # geolocator: ^7.3.1
+  # just_audio: ^0.9.3
+  fl_chart: ^0.36.3
+  http: ^0.13.3
+  # get_storage: ^2.0.3
+  flutter_svg: ^0.22.0
+  data_table_2: ^2.0.3
+  rubber: ^1.0.1
+  flutter_swiper: ^1.1.6
+  numberpicker: ^2.1.1
+  flutter_rating_bar: ^4.0.0
+  flutter_staggered_grid_view: ^0.4.0
+  country_code_picker: ^2.0.2
+  pin_code_fields: ^7.3.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - assets/
